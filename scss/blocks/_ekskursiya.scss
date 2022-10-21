@@ -1,0 +1,25 @@
+.ekskursiya{
+    position: relative;
+    padding-top: 170px;
+    padding-bottom: 200px;
+    background-color: #000;
+}
+.ekskursiya-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ekskursiya-box__text{
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 600px);
+}
+.ekskursiya-box__img-box{
+    width: 100%;
+    max-width: 1022px;
+    padding: 30px;
+    border: 1px solid #fff;
+}
+.ekskursiya-box__img{
+    width: 100%;
+}

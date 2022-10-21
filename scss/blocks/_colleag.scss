@@ -1,0 +1,26 @@
+.colleag{
+    margin-top: 400px;
+    margin-bottom: 100px;
+}
+.colleag-box{
+    overflow: hidden;
+}
+.colleag-box__list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: 100px;
+    padding: 0;
+    list-style: none;
+}
+.colleag-box__item{
+    margin-right: 100px;
+    opacity: 0.5;
+}
+.colleag-box__item:nth-child(3){
+    opacity: 1;
+}
+.colleag-box__item:last-child{
+    margin-right: 0;
+}

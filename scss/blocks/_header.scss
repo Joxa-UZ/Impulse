@@ -11,6 +11,7 @@ body{
     height: 100px;
     display: flex;
     align-items: center;
+    z-index: 5;
 }
 .site-header__wrapper{
     display: flex;
@@ -146,4 +147,97 @@ body{
 }
 .modal__under-socialitem{
     margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .site-header{
+        right: calc(50% - 580px);
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .site-header{
+        right: calc(50% - 520px);
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .site-header{
+        right: calc(50% - 480px);
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .site-header{
+        right: calc(50% - 420px);
+    }
+    .site-header__link{
+        width: 150px;
+        padding: 12px 0px;
+    }
+    .modal__hamburger{
+        width: 25px;
+        height: 20px;
+        background-size: cover  ;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .site-header{
+        right: calc(50% - 391px);
+    }
+    .site-header__link{
+        margin-left: 500px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .site-header{
+        right: calc(50% - 340px);
+    }
+    .site-header__logo{
+        right: 20px;
+    }
+    .site-header__link{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .site-header{
+        right: calc(50% - 290px);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .site-header{
+        right: calc(50% - 240px);
+    }
+    .modal__hamburger{
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .site-header{
+        right: calc(50% - 200px);
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .site-header{
+        right: calc(50% - 150px);
+    }
+    .site-header__logo{
+        right: -5px;
+    }
+}
+
+
+// max width for mackbook
+
+@media only screen and (max-width: 1920px) {
+    
 }

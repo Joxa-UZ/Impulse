@@ -134,108 +134,154 @@ body {
 
 @media only screen and (max-width: 1000px) {
     // .slide:nth-child(1){
-    //     // max-width: 1000px;
-    //     // background-size: contain;
-    // }
+        //     // max-width: 1000px;
+        //     // background-size: contain;
+        // }
+        
+        .hero__title{
+            font-size: 30px;
+        }
+    }
     
-    .hero__title{
-        font-size: 30px;
+    @media only screen and (max-width: 800px) {
+        .hero__link{
+            max-width: 170px;
+            padding: 10px;
+        }
     }
-}
-
-@media only screen and (max-width: 800px) {
-    .hero__link{
-        max-width: 170px;
-        padding: 10px;
+    
+    @media only screen and (max-width: 700px) {
+        .slide:nth-child(1){
+            background-size: cover;
+            // background-position: calc(50% - 80px) calc(50%);
+        }
     }
-}
-
-@media only screen and (max-width: 700px) {
-    .slide:nth-child(1){
-        background-size: cover;
-        // background-position: calc(50% - 80px) calc(50%);
+    
+    @media only screen and (max-width: 600px) {
+        .slide:nth-child(1){
+            background-size: cover;
+            background-position: calc(50% - 450px) calc(50%);
+            background-repeat: repeat;
+        }
     }
-}
-
-@media only screen and (max-width: 600px) {
-    .slide:nth-child(1){
-        background-size: cover;
-        background-position: calc(50% - 450px) calc(50%);
-        background-repeat: repeat;
+    
+    @media only screen and (max-width: 500px) {
+        .slide:nth-child(1){
+            background-size: cover;
+            background-position: calc(50% - 150px) calc(50%);
+            background-repeat: repeat;
+        }
+        .hero__title{
+            font-size: 23px;
+        }
+        .hero__link{
+            padding: 8px;
+            font-size: 18px;
+        }
     }
-}
-
-@media only screen and (max-width: 500px) {
-    .slide:nth-child(1){
-        background-size: cover;
-        background-position: calc(50% - 150px) calc(50%);
-        background-repeat: repeat;
+    
+    @media only screen and (max-width: 450px) {
+        .slide:nth-child(1){
+            background-size: cover;
+            background-position: calc(50% - 190px) calc(50%);
+        }
     }
-    .hero__title{
-        font-size: 23px;
+    
+    
+    // max width mackbook 
+    
+    @media only screen and (max-width: 1900px) {
+        .slide{
+            width: 100%;
+            max-width: 1900px;
+            
+            // background-size: contain;
+        }   
+        .hero__deco-text{
+            bottom: -100px;
+            right: -150px;
+        }
+        .btn-back{
+            top: 1001px;
+            right: 535px;
+        }
+        .btn-next{
+            top: 1003px;
+            right: 240px;
+        }
     }
-    .hero__link{
-        padding: 8px;
-        font-size: 18px;
+    
+    @media only screen and (max-width: 1800px) {
+        .btn-back{
+            right: 488px;
+        }
+        .btn-next{
+            right: 190px;
+        }
     }
-}
-
-@media only screen and (max-width: 450px) {
-    .slide:nth-child(1){
-        background-size: cover;
-        background-position: calc(50% - 190px) calc(50%);
+    @media only screen and (max-width: 1700px) {
+        .hero__deco-text {
+            right: -100px;
+        }
     }
-}
-
-
-// max width mackbook 
-
-@media only screen and (max-width: 1900px) {
- .slide{
-    width: 100%;
-    max-width: 1900px;
-
-    // background-size: contain;
- }   
- .hero__deco-text{
-    bottom: -100px;
-    right: -150px;
- }
-}
-@media only screen and (max-width: 1600px) {
-    .slide{
-        background-position: calc(50%) calc(50%);
-        background-repeat: repeat;
+    @media only screen and (max-width: 1600px) {
+        .slide{
+            background-position: calc(50%) calc(50%);
+        }
+        .hero__deco-text {
+            right: -50px;
+        }
     }
-}
-@media only screen and (max-width: 1300px) {
-    .slide{
-        background-position: calc(50% - 100px) calc(50%);
-        background-repeat: repeat;
+    
+    @media only screen and (max-width: 1500px) {
+        .modal{
+            max-width: 800px;
+        }
+        .hero__deco-text {
+            right: -4px;
+        }
     }
-}
-
-@media only screen and (max-width: 1200px) {
-    .slide{
-        background-position: calc(50% - 200px) calc(50%);
-        background-repeat: repeat;
+    @media only screen and (max-width: 1400px) {
+        .hero__deco-text {
+            right: 40px;
+        }
     }
-}
-@media only screen and (max-width: 1000px) {
-    .slide{
-        background-position: calc(50% - 300px) calc(50%);
-        background-repeat: repeat;
+    @media only screen and (max-width: 1300px) {
+        .slide{
+            background-position: calc(50% - 100px) calc(50%);
+            background-repeat: repeat;
+        }
     }
-}
-@media only screen and (max-width: 800px) {
-    .slide{
-        background-position: calc(50% - 400px) calc(50%);
-        background-repeat: repeat;
+    
+    @media only screen and (max-width: 1200px) {
+        .slide{
+            background-position: calc(50% - 200px) calc(50%);
+            background-repeat: repeat;
+        }
     }
-}
-@media only screen and (max-width: 700px) {
-    .slide{
-        background-position: calc(50% - 400px) calc(50%);
-        background-repeat: repeat;
+    @media only screen and (max-width: 1100px) {
+        .modal{
+            max-width: 600px;
+        }
     }
-}
+    @media only screen and (max-width: 1000px) {
+        .slide{
+            background-position: calc(50% - 300px) calc(50%);
+            background-repeat: repeat;
+        }
+        .hero__deco-text {
+            bottom: -155px;
+        }
+    }
+    @media only screen and (max-width: 800px) {
+        .slide{
+            background-position: calc(50% - 400px) calc(50%);
+            background-repeat: repeat;
+        }
+    }
+    @media only screen and (max-width: 700px) {
+        .slide{
+            background-position: calc(50% - 400px) calc(50%);
+            background-repeat: repeat;
+        }
+    }

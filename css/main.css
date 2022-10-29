@@ -1763,11 +1763,47 @@ body {
     bottom: -100px;
     right: -150px;
   }
+  .btn-back {
+    top: 1001px;
+    right: 535px;
+  }
+  .btn-next {
+    top: 1003px;
+    right: 240px;
+  }
+}
+@media only screen and (max-width: 1800px) {
+  .btn-back {
+    right: 488px;
+  }
+  .btn-next {
+    right: 190px;
+  }
+}
+@media only screen and (max-width: 1700px) {
+  .hero__deco-text {
+    right: -100px;
+  }
 }
 @media only screen and (max-width: 1600px) {
   .slide {
     background-position: 50% 50%;
-    background-repeat: repeat;
+  }
+  .hero__deco-text {
+    right: -50px;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .modal {
+    max-width: 800px;
+  }
+  .hero__deco-text {
+    right: -4px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .hero__deco-text {
+    right: 40px;
   }
 }
 @media only screen and (max-width: 1300px) {
@@ -1782,10 +1818,18 @@ body {
     background-repeat: repeat;
   }
 }
+@media only screen and (max-width: 1100px) {
+  .modal {
+    max-width: 600px;
+  }
+}
 @media only screen and (max-width: 1000px) {
   .slide {
     background-position: calc(50% - 300px) 50%;
     background-repeat: repeat;
+  }
+  .hero__deco-text {
+    bottom: -155px;
   }
 }
 @media only screen and (max-width: 800px) {

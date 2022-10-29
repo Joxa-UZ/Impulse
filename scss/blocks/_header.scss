@@ -1,9 +1,10 @@
 body{
     background-color: #000;
+    overflow-x: hidden;
 }
 .site-header{
     position: absolute;
-    right: calc(50% - 960px);
+    // right: calc(50% - 949px);
     width: 100%;
     // max-width: 1880px;
     margin-right: auto;

@@ -2,7 +2,8 @@ let openModal = document.querySelector(".modal__hamburger");
 let closeModal = document.querySelector(".modal__cancel");
 let modal = document.querySelector(".modal");
 
-openModal.addEventListener("click", function(){
+openModal.addEventListener("click", function(evt){
+    evt.preventDefault();
     modal.classList.add("modal__active");
 })
 closeModal.addEventListener("click", function(){

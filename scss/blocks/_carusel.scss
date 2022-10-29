@@ -17,7 +17,12 @@ body {
     padding: 0;
     list-style: none;
 }
-
+.hero__deco-text{
+    position: absolute;
+    // top: 0;
+    bottom: -130px;
+    right: -150px;
+}
 .slide {
     position: absolute;
     inset: 0;
@@ -104,17 +109,23 @@ body {
 
 .btn-back{
     position: absolute;
-    top: 635px;
-    right: 520px;
+    top: 1026px;
+    right: 542px;
     background-color: transparent;
     color: transparent;
 }
 .btn-next{
     position: absolute;
-    top: 635px;
-    right: 310px;
+    top: 1028px;
+    right: 250px;
     background-color: transparent;
     color: transparent;
+}
+.slide:nth-child(2) .hero__deco-text{
+    bottom: -240px;
+}
+.slide:nth-child(3) .hero__deco-text{
+    bottom: -230px;
 }
 .carousel-button:hover{
     background-color: transparent;
@@ -183,9 +194,13 @@ body {
  .slide{
     width: 100%;
     max-width: 1900px;
-    
+
     // background-size: contain;
  }   
+ .hero__deco-text{
+    bottom: -100px;
+    right: -150px;
+ }
 }
 @media only screen and (max-width: 1600px) {
     .slide{

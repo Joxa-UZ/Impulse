@@ -285,3 +285,18 @@ body {
             background-repeat: repeat;
         }
     }
+    
+    @media only screen and (max-width: 400px) {
+        .hero__deco-text{
+            bottom: 79px;
+            width: 245px;
+        }
+        .btn-next{
+            top: 537px;
+            right: 109px;
+        }
+        .btn-back{
+            top: 537px;
+            right: 291px;
+        }
+    }

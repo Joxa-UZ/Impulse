@@ -55,6 +55,7 @@ body{
     z-index: 5;
 }
 .modal__active{
+    height: 100vh;
     display: block;
     position: absolute;
 }
@@ -74,7 +75,7 @@ body{
     cursor: pointer;
 }
 .modal__wrapper{
-    margin-top: 50px;
+    margin-top: 160px;
     display: flex;
     align-items: center;
     // justify-content: space-between;

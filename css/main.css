@@ -499,6 +499,7 @@ body {
 }
 
 .modal__active {
+  height: 100vh;
   display: block;
   position: absolute;
 }
@@ -520,7 +521,7 @@ body {
 }
 
 .modal__wrapper {
-  margin-top: 50px;
+  margin-top: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1703,7 +1704,7 @@ body {
 }
 
 .slide:nth-child(3) .hero__deco-text {
-  bottom: -230px;
+  bottom: -243px;
 }
 
 .carousel-button:hover {

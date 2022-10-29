@@ -126,3 +126,35 @@
     opacity: 1;
     transition: 1s;
 }
+
+@media only screen and (max-width: 1326px) {
+    .contact-box__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-box__input{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .contact-box__list{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .contact{
+        position: relative;
+    }
+    .contact-box__img{
+        position: absolute;
+        left: 150px;
+        top: -50px;
+        transform: rotate(90deg);
+    }
+}

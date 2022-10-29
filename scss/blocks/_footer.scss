@@ -54,3 +54,26 @@
     color: #FFFFFF;
     opacity: 0.8;
 }
+
+@media only screen and (max-width: 800px) {
+    .footer-box{
+        flex-direction: column;
+    }
+    .footer-box__logo{
+        margin-bottom: 30px;
+    }
+    .footer-box__list{
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 453px) {
+    .footer-box__list{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-box__item{
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}

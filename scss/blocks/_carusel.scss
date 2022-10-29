@@ -82,21 +82,21 @@ body {
 
 .slide:nth-child(1){
     width: 100%;
-    max-width: 1540px;
+    // max-width: 1540px;
     background-image: url("../images/hero-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .slide:nth-child(2){
     width: 100%;
-    max-width: 1400px;
+    // max-width: 1400px;
     background-image: url("../images/hero-bg-two.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .slide:nth-child(3){
     width: 100%;
-    max-width: 1400px;
+    // max-width: 1400px;
     background-image: url("../images/hero-bg-three.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -123,7 +123,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
     .slide:nth-child(1){
-        max-width: 1000px;
+        // max-width: 1000px;
         background-size: contain;
     }
     
@@ -177,7 +177,7 @@ body {
 
 // max width mackbook 
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 1900px) {
  .slide{
     width: 100%;
     max-width: 1900px;

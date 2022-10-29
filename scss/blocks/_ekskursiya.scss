@@ -4,6 +4,9 @@
     padding-bottom: 200px;
     background-color: #000;
 }
+#video{
+    background-color: #000;
+}
 .ekskursiya-box{
     display: flex;
     align-items: center;
@@ -22,4 +25,12 @@
 }
 .ekskursiya-box__img{
     width: 100%;
+}
+
+@media only screen and (max-width: 1250px) {
+    .ekskursiya-box__text{
+        left: 200px;
+        top: 30px;
+        transform: rotate(90deg);
+    }
 }

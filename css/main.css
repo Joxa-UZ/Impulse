@@ -1001,299 +1001,6 @@ body {
     bottom: -230px;
   }
 }
-.teatral {
-  position: relative;
-  padding-top: 89px;
-}
-
-.carousel {
-  position: relative;
-}
-
-.teatral__caru-box {
-  width: 100%;
-  max-width: 1000px;
-  height: 573px;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-  border: 1px solid #777776;
-}
-
-.carousel > ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.teatral__list {
-  position: absolute;
-  right: 60px;
-  width: 100%;
-  max-width: 1000px;
-  height: 500px;
-}
-
-.teatral__list li {
-  position: absolute;
-  top: 15px;
-  left: -30px;
-  width: 100%;
-  max-width: 1062px;
-  height: 513px;
-}
-
-.teatral__video {
-  width: 100%;
-  max-width: 1062px;
-  height: 513px;
-  border: none;
-}
-
-.slide {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-  -webkit-transition: 200ms opacity ease-in-out;
-  transition: 200ms opacity ease-in-out;
-  -webkit-transition-delay: 200ms;
-          transition-delay: 200ms;
-}
-
-.slide > img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
-}
-
-.slide[data-active] {
-  opacity: 1;
-  z-index: 1;
-  -webkit-transition-delay: 0ms;
-          transition-delay: 0ms;
-}
-
-.carousel-button {
-  cursor: pointer;
-}
-
-.teatral__btn-box {
-  position: absolute;
-  top: 510px;
-  right: 7%;
-  width: 100%;
-  max-width: 90px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 10px;
-  padding-right: 19px;
-  padding-bottom: 11px;
-  padding-left: 19px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #000;
-  z-index: 10;
-}
-
-.prev {
-  width: 100%;
-  max-width: 8px;
-  height: 14px;
-  margin-left: -10px;
-  background-image: url("../images/vektor-left.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #000;
-  padding: 15px;
-  border: none;
-}
-
-.next {
-  width: 100%;
-  max-width: 8px;
-  height: 14px;
-  margin-right: -10px;
-  background-image: url("../images/vektor-right.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-color: #000;
-  padding: 15px;
-  background-position: 50%;
-  border: none;
-}
-
-.teatralspan {
-  display: inline-block;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
-  border: 0.5px solid #1D1D1B;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-}
-
-.teatral__info-box {
-  position: absolute;
-  top: 700px;
-  left: calc(50% - 670px);
-  width: 100%;
-  max-width: 900px;
-  padding-top: 70px;
-  padding-right: 188px;
-  padding-bottom: 106px;
-  padding-left: 400px;
-  background-color: #fff;
-  background-image: url("../images/decoration-left.png");
-  background-repeat: no-repeat;
-  z-index: 12;
-}
-
-.teatral__info-title {
-  margin: 0;
-  margin-bottom: 40px;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  color: #E21F25;
-}
-
-.teatral__info-text-box {
-  width: 100%;
-  max-width: 328px;
-}
-
-.teatral__info-text {
-  margin: 0;
-  margin-bottom: 30px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #000000;
-}
-
-.teatral__info-member {
-  display: block;
-  margin-bottom: 90px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  color: #000000;
-  opacity: 0.6;
-}
-
-.teatral__info-link {
-  display: inline-block;
-  padding: 16px 50px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  color: #1D1D1B;
-  border: 1px solid #E21F25;
-  text-decoration: none;
-}
-
-.teatral__info-link:hover {
-  background-color: #E21F25;
-  color: #fff;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.intensiv {
-  margin-top: 591px;
-}
-
-.intensiv__img {
-  position: absolute;
-  bottom: calc(50% + 20px);
-  right: calc(50% - 600px);
-}
-
-.inrensiv__info-box {
-  position: absolute;
-  bottom: calc(50% - 800px);
-  right: calc(50% - 670px);
-  width: 100%;
-  max-width: 900px;
-  padding-top: 70px;
-  padding-right: 400px;
-  padding-bottom: 106px;
-  padding-left: 188px;
-  background-color: #fff;
-  background-image: url("../images/decoration-right.png");
-  background-position: calc(50% + 370px) 50%;
-  background-repeat: no-repeat;
-  z-index: 12;
-}
-
-.slide-intensiv {
-  position: absolute;
-  top: 15px;
-  left: 130px;
-  width: 100%;
-  max-width: 1062px;
-  height: 513px;
-  list-style: none;
-}
-
-.intensiv__btn-box {
-  position: absolute;
-  top: 510px;
-  left: 17%;
-  width: 100%;
-  max-width: 90px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 10px;
-  padding-right: 19px;
-  padding-bottom: 11px;
-  padding-left: 19px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #000;
-  z-index: 10;
-}
-
-.banket {
-  position: relative;
-  margin-top: 492px;
-}
-
-.banket__info-box {
-  position: absolute;
-  top: 590px;
-  left: calc(50% - 670px);
-  width: 100%;
-  max-width: 900px;
-  padding-top: 70px;
-  padding-right: 188px;
-  padding-bottom: 106px;
-  padding-left: 400px;
-  background-color: #fff;
-  background-image: url("../images/decoration-left.png");
-  background-repeat: no-repeat;
-  z-index: 12;
-}
-
 .colleag {
   margin-top: 400px;
   margin-bottom: 100px;
@@ -1813,21 +1520,141 @@ body {
 }
 
 .owl-next {
-  background-image: url("/images/vektor-right.svg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
 .owl-prev {
-  background-image: url("/images/vektor-left.svg") !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
-.section {
-  margin-top: 300px;
+.lds-roller {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
 }
 
+.lds-roller div {
+  -webkit-animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+          animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  -webkit-transform-origin: 40px 40px;
+          transform-origin: 40px 40px;
+}
+
+.lds-roller div:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fff;
+  margin: -4px 0 0 -4px;
+}
+
+.lds-roller div:nth-child(1) {
+  -webkit-animation-delay: -0.036s;
+          animation-delay: -0.036s;
+}
+
+.lds-roller div:nth-child(1):after {
+  top: 63px;
+  left: 63px;
+}
+
+.lds-roller div:nth-child(2) {
+  -webkit-animation-delay: -0.072s;
+          animation-delay: -0.072s;
+}
+
+.lds-roller div:nth-child(2):after {
+  top: 68px;
+  left: 56px;
+}
+
+.lds-roller div:nth-child(3) {
+  -webkit-animation-delay: -0.108s;
+          animation-delay: -0.108s;
+}
+
+.lds-roller div:nth-child(3):after {
+  top: 71px;
+  left: 48px;
+}
+
+.lds-roller div:nth-child(4) {
+  -webkit-animation-delay: -0.144s;
+          animation-delay: -0.144s;
+}
+
+.lds-roller div:nth-child(4):after {
+  top: 72px;
+  left: 40px;
+}
+
+.lds-roller div:nth-child(5) {
+  -webkit-animation-delay: -0.18s;
+          animation-delay: -0.18s;
+}
+
+.lds-roller div:nth-child(5):after {
+  top: 71px;
+  left: 32px;
+}
+
+.lds-roller div:nth-child(6) {
+  -webkit-animation-delay: -0.216s;
+          animation-delay: -0.216s;
+}
+
+.lds-roller div:nth-child(6):after {
+  top: 68px;
+  left: 24px;
+}
+
+.lds-roller div:nth-child(7) {
+  -webkit-animation-delay: -0.252s;
+          animation-delay: -0.252s;
+}
+
+.lds-roller div:nth-child(7):after {
+  top: 63px;
+  left: 17px;
+}
+
+.lds-roller div:nth-child(8) {
+  -webkit-animation-delay: -0.288s;
+          animation-delay: -0.288s;
+}
+
+.lds-roller div:nth-child(8):after {
+  top: 56px;
+  left: 12px;
+}
+
+@-webkit-keyframes lds-roller {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes lds-roller {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
 .clients-carousel {
   display: -webkit-box;
   display: -ms-flexbox;

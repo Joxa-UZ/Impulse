@@ -4,11 +4,11 @@
 /*------------------------------*/
 
 
- /*$(window).load(function() {
-	$(".loader-item").delay(500).fadeOut();
-	$("#pageloader").delay(1000).fadeOut("slow");
+ $(window).load(function() {
+	$(".lds-roller").delay(1000).fadeOut();
+	$("#pageloader").delay(300).fadeOut("slow");
 	});
-*/
+
 
  /*------------------------------*/
 /*	Slider

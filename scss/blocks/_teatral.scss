@@ -259,3 +259,34 @@
         z-index: 12;
     }
     
+
+
+    @media only screen and (max-width: 1200px) {
+        .teatral__info-box{
+            left: calc(50% - 585px);
+        }
+        .inrensiv__info-box{
+            right: calc(50% - 565px);
+        }
+        .banket__info-box{
+            left: calc(50% - 585px);
+        }
+        .intensiv__btn-box{
+            left: 53px;
+        }
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .teatral__list{
+            right: 10px;
+        }
+        .teatral__list li{
+            width: 900px;
+        }
+        .teatral__btn-box{
+            right: 4%;
+        }
+        .intensiv__btn-box {
+            left: 3px;
+        }
+    }

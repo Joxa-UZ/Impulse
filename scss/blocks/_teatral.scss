@@ -78,17 +78,19 @@
     padding-bottom: 11px;
     padding-left: 19px;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #000;
     z-index: 10;
 }
 .prev{
     width: 100%;
     max-width: 8px;
     height: 14px;
+    margin-left: -10px;
     background-image: url("../images/vektor-left.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: transparent;
+    background-color: #000;
+    padding: 15px;
     border: none;
 }
 
@@ -96,10 +98,13 @@
     width: 100%;
     max-width: 8px;
     height: 14px;
+    margin-right: -10px;
     background-image: url("../images/vektor-right.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: transparent;
+    background-color: #000;
+    padding: 15px;
+    background-position: calc(50%);
     border: none;
 }
 .teatralspan{
@@ -176,7 +181,7 @@
 }
 
 .intensiv{
-    margin-top: 450px;
+    margin-top: 591px;
 }
 .intensiv__img{
     position: absolute;
@@ -218,7 +223,7 @@
     .intensiv__btn-box{
         position: absolute;
         top: 510px;
-        left: 14%;
+        left: 17%;
         width: 100%;
         max-width: 90px;
         display: flex;
@@ -228,14 +233,14 @@
         padding-bottom: 11px;
         padding-left: 19px;
         justify-content: space-between;
-        background-color: #fff;
+        background-color: #000;
         z-index: 10;
     }
     
     
     .banket{
         position: relative;
-        margin-top: 300px;
+        margin-top: 492px;
     }
     
     .banket__info-box{

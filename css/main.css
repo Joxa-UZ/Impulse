@@ -537,7 +537,7 @@ body {
 .modal__cancel {
   position: absolute;
   top: 40px;
-  left: 100px;
+  left: 39px;
   width: 24px;
   height: 24px;
   background-image: url("../images/x-vektor.svg");
@@ -1100,7 +1100,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #fff;
+  background-color: #000;
   z-index: 10;
 }
 
@@ -1108,10 +1108,12 @@ body {
   width: 100%;
   max-width: 8px;
   height: 14px;
+  margin-left: -10px;
   background-image: url("../images/vektor-left.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: transparent;
+  background-color: #000;
+  padding: 15px;
   border: none;
 }
 
@@ -1119,10 +1121,13 @@ body {
   width: 100%;
   max-width: 8px;
   height: 14px;
+  margin-right: -10px;
   background-image: url("../images/vektor-right.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: transparent;
+  background-color: #000;
+  padding: 15px;
+  background-position: 50%;
   border: none;
 }
 
@@ -1209,7 +1214,7 @@ body {
 }
 
 .intensiv {
-  margin-top: 450px;
+  margin-top: 591px;
 }
 
 .intensiv__img {
@@ -1248,7 +1253,7 @@ body {
 .intensiv__btn-box {
   position: absolute;
   top: 510px;
-  left: 14%;
+  left: 17%;
   width: 100%;
   max-width: 90px;
   display: -webkit-box;
@@ -1264,13 +1269,13 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #fff;
+  background-color: #000;
   z-index: 10;
 }
 
 .banket {
   position: relative;
-  margin-top: 300px;
+  margin-top: 492px;
 }
 
 .banket__info-box {
@@ -1287,6 +1292,44 @@ body {
   background-image: url("../images/decoration-left.png");
   background-repeat: no-repeat;
   z-index: 12;
+}
+
+.colleag {
+  margin-top: 400px;
+  margin-bottom: 100px;
+}
+
+.colleag-box {
+  overflow: hidden;
+}
+
+.colleag-box__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  margin-top: 100px;
+  padding: 0;
+  list-style: none;
+}
+
+.colleag-box__item {
+  margin-right: 100px;
+  opacity: 0.5;
+}
+
+.colleag-box__item:nth-child(3) {
+  opacity: 1;
+}
+
+.colleag-box__item:last-child {
+  margin-right: 0;
 }
 
 .contact {

@@ -521,7 +521,7 @@ body {
 }
 
 .modal__wrapper {
-  margin-top: 130px;
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
